@@ -1,0 +1,22 @@
+{
+    "name": "web-dev",
+    "version": "1.0.0",
+    "description": "a simple MFRN website (Mongo,fastify,React,Node)",
+    "scripts": {
+        "watch": "tsc --watch",
+        "clean": "node scripts/clean.mjs",
+        "update": "yarn up \"*\" -i",
+        "lint": "eslint --fix",
+        "format": "prettier --config ./.prettierrc.json --loglevel warn --write .",
+        "eslint": "eslint"
+    },
+    "author": "Aura <auratook@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^17.0.21",
+        "@typescript-eslint/eslint-plugin": "^5.12.1",
+        "@typescript-eslint/parser": "^5.12.1",
+        "eslint": "^8.10.0",
+        "prettier": "^2.5.1"
+    }
+}
