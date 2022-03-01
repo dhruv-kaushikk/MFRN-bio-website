@@ -11,5 +11,6 @@
 		"**/.yarn": true,
 		"**/dist/": true,
 		"**/.git/": true
-	}
+	},
+	"editor.fontFamily": "Cascadia mono, 'Courier New', monospace"
 }
