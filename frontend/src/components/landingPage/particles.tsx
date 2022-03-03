@@ -18,12 +18,10 @@ const Particles = () => {
             canvasClassName={classes.particlesCanvas}
             params={{
                 background: {
-                    color: {
-                        value: '#0d47a1',
-                    },
                     position: '50% 50%',
                     repeat: 'no-repeat',
                     size: 'cover',
+                    opacity: 0
                 },
                 fullScreen: {
                     zIndex: 1,
@@ -41,9 +39,9 @@ const Particles = () => {
                     },
                     modes: {
                         bubble: {
-                            distance: 400,
+                            distance: 200,
                             duration: 2,
-                            opacity: 0.8,
+                            opacity: 1,
                             size: 40,
                         },
                         grab: {
@@ -61,7 +59,7 @@ const Particles = () => {
                         },
                         distance: 150,
                         enable: true,
-                        opacity: 2,
+                        opacity: 10,
                     },
                     move: {
                         attract: {
@@ -88,13 +86,13 @@ const Particles = () => {
                     opacity: {
                         random: true,
                         value: {
-                            min: 0.1,
-                            max: 0.5,
+                            min: 0.5,
+                            max: 1,
                         },
                         animation: {
                             enable: true,
                             speed: 3,
-                            minimumValue: 0.1,
+                            minimumValue: 1,
                         },
                     },
                     size: {
