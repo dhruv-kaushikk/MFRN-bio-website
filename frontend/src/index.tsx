@@ -3,10 +3,18 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
+import { createTheme, ThemeProvider } from '@material-ui/core'
+const theme = createTheme({
+    typography: {
+        fontFamily: ['Montserrat', 'sans-serif'].join(','),
+    },
+})
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <ThemeProvider theme={theme}>
+            <App />
+        </ThemeProvider>
     </React.StrictMode>,
     document.getElementById('root')
 )

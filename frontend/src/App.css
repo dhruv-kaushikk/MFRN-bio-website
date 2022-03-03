@@ -1,4 +1,6 @@
 body {
     background-image: url('./assets/2126183.jpg');
+    background-blend-mode: luminosity;
     background-size: cover;
+    background-repeat: no-repeat;
 }

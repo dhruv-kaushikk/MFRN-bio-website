@@ -10,6 +10,11 @@ function Navbar() {
                 size="large"
                 color="inherit"
                 style={{ marginRight: '1rem' }}
+                sx={{
+                    ':hover': {
+                        borderColor: '#5865f2', // theme.palette.primary.main
+                    },
+                }}
             >
                 About Me
             </Button>
@@ -18,10 +23,27 @@ function Navbar() {
                 size="large"
                 color="inherit"
                 style={{ marginRight: '1rem' }}
+                sx={{
+                    ':hover': {
+                        borderColor: '#57f287',
+                    },
+                }}
+                onClick={() => {
+                    alert('aah')
+                }}
             >
                 Projects
             </Button>
-            <Button variant="outlined" size="large" color="inherit">
+            <Button
+                variant="outlined"
+                size="large"
+                color="inherit"
+                sx={{
+                    ':hover': {
+                        borderColor: '#fee75c', // theme.palette.primary.main
+                    },
+                }}
+            >
                 PortFolio
             </Button>
         </div>
