@@ -1,0 +1,38 @@
+.social-icons {
+	position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 1%;
+  padding: 1%;
+	text-align: center;
+}
+.discord {
+	color: white;
+}
+.discord:hover {
+	animation: discordanim 0.25s forwards;
+}
+.github {
+	margin-left: 1%;
+	color: white;
+}
+.github:hover {
+	animation: githubanim 0.25s forwards;
+}
+@keyframes githubanim {
+	0% {
+		color: white;
+	}
+	100% {
+		color: #16fa01;
+	}
+}
+@keyframes discordanim {
+	0% {
+		color: white;
+	}
+	100% {
+		color: #5865f2;
+	}
+}
