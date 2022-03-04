@@ -1,0 +1,13 @@
+.main-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 500%;
+    line-height: 1.2;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&family=Lilita+One&family=Montserrat&display=swap');
