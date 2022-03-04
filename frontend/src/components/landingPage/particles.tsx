@@ -32,6 +32,7 @@ const Particles = () => {
                             enable: true,
                             mode: 'repulse',
                         },
+                        resize: false,
                     },
                     modes: {
                         bubble: {
