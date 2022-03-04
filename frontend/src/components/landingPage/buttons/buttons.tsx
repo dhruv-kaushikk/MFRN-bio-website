@@ -4,7 +4,7 @@ import './buttons.css'
 
 function Navbar() {
     return (
-        <div className='buttons'>
+        <div className="buttons">
             <Button
                 variant="outlined"
                 size="large"
