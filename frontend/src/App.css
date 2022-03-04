@@ -3,4 +3,9 @@ body {
     background-blend-mode: luminosity;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+html {
+    height: 100%;
+    width: 100%;
 }

@@ -4,7 +4,7 @@ import './buttons.css'
 
 function Navbar() {
     return (
-        <div>
+        <div className='buttons'>
             <Button
                 variant="outlined"
                 size="large"
@@ -14,6 +14,9 @@ function Navbar() {
                     ':hover': {
                         borderColor: '#5865f2', // theme.palette.primary.main
                     },
+                }}
+                onClick={() => {
+                    alert('TODO: make About Me Page')
                 }}
             >
                 About Me
@@ -29,7 +32,7 @@ function Navbar() {
                     },
                 }}
                 onClick={() => {
-                    alert('aah')
+                    alert('TODO: make projects page')
                 }}
             >
                 Projects
@@ -42,6 +45,9 @@ function Navbar() {
                     ':hover': {
                         borderColor: '#fee75c', // theme.palette.primary.main
                     },
+                }}
+                onClick={() => {
+                    alert('TODO: make Portfolio Page')
                 }}
             >
                 PortFolio
