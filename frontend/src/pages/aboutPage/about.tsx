@@ -1,4 +1,4 @@
-import './project.css'
+import './about.css'
 function AboutPage() {
     return (
         <div className="aboutPage">

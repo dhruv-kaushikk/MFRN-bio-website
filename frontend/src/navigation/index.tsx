@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from '../pages/homePage/HomePage'
 import PortFolioPage from '../pages/portfolioPage/portfolio'
 import ProjectPage from '../pages/projectPage/project'
-import AboutPage from '../pages/aboutPage/project'
+import AboutPage from '../pages/aboutPage/about'
 export default function Nav() {
     return (
         <Router>
