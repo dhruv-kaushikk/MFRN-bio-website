@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { createTheme, ThemeProvider } from '@material-ui/core'
+import Nav from './navigation'
 const theme = createTheme({
     typography: {
         fontFamily: ['Montserrat', 'sans-serif'].join(','),
@@ -13,7 +13,7 @@ const theme = createTheme({
 ReactDOM.render(
     <React.StrictMode>
         <ThemeProvider theme={theme}>
-            <App />
+            <Nav />
         </ThemeProvider>
     </React.StrictMode>,
     document.getElementById('root')
