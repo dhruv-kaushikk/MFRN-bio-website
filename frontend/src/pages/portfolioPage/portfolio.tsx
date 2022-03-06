@@ -1,8 +1,9 @@
+import ProjectParticles from '../../components/ProjectPageComps/particles'
 import './portfolio.css'
 function portFolioPage() {
     return (
         <div className="portfoliopage">
-            <p>PortFolioPage</p>
+            <ProjectParticles />
         </div>
     )
 }
