@@ -1,10 +1,6 @@
 import { makeStyles } from '@mui/styles'
-import React, { Component } from 'react'
+import React from 'react'
 import ReactParticles from 'react-tsparticles'
-type Props = {}
-
-type State = {}
-
 const useStyles = makeStyles(() => ({
     particlesCanvas: {
         position: 'fixed',
