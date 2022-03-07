@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat+Alternates:wght@200&family=Montserrat:wght@300&display=swap');
 .centerText {
-	color: white;
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	position: absolute;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    position: absolute;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
