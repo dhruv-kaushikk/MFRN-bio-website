@@ -5,10 +5,10 @@ function ProjectParticles() {
 			params={{
 				particles: {
 					number: {
-						value: 50,
+						value: 20,
 						density: {
 							enable: true,
-							value_area: 1000,
+							value_area: 1500,
 						},
 					},
 					color: {
