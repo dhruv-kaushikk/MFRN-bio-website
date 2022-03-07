@@ -2,19 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import reportWebVitals from './reportWebVitals'
-import { createTheme, ThemeProvider } from '@material-ui/core'
 import Nav from './navigation'
-const theme = createTheme({
-    typography: {
-        fontFamily: ['Montserrat', 'sans-serif'].join(','),
-    },
-})
 
 ReactDOM.render(
     <React.StrictMode>
-        <ThemeProvider theme={theme}>
-            <Nav />
-        </ThemeProvider>
+        <Nav />
     </React.StrictMode>,
     document.getElementById('root')
 )

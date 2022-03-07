@@ -36,7 +36,6 @@ function Buttons() {
                     style={{ marginRight: '1rem' }}
                     sx={{
                         ':hover': {
-                            opacity: '',
                             borderColor: '#5865f2', // theme.palette.primary.main
                         },
                     }}

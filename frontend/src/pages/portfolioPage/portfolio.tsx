@@ -1,8 +1,11 @@
+import ProjectParticles from '../../components/ProjectPageComps/particles'
+import Box1 from '../../components/ProjectPageComps/InfoBox/Box1'
 import './portfolio.css'
 function portFolioPage() {
     return (
         <div className="portfoliopage">
-            <p>PortFolioPage</p>
+            <Box1 />
+            <ProjectParticles />
         </div>
     )
 }
